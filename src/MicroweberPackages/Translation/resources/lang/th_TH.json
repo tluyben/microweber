@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "กำหนดสกุลเงินที่ร้านค้าของคุณจะดำเนินการ",
     "Set default currency": "ตั้งค่าสกุลเงินเริ่มต้น",
     "Default currency with which you will accept payments.": "สกุลเงินเริ่มต้นที่คุณจะรับชำระเงิน",
-    "Currency simbol position": "ตำแหน่งซิมโบลของสกุลเงิน",
+    "Currency symbol position": "ตำแหน่งซิมโบลของสกุลเงิน",
     "Where to display the currency symbol before, after or by default relative to the amount.": "ตำแหน่งที่จะแสดงสัญลักษณ์สกุลเงินก่อนหลังหรือตามค่าเริ่มต้นที่สัมพันธ์กับจำนวนเงิน",
     "Invoicing": "ออกใบแจ้งหนี้",
     "Enable invoicing": "เปิดใช้งานการออกใบแจ้งหนี้",

@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "वह मुद्रा सेट करें जिसमें आपका स्टोर संचालित होगा।",
     "Set default currency": "डिफ़ॉल्ट मुद्रा सेट करें",
     "Default currency with which you will accept payments.": "डिफ़ॉल्ट मुद्रा जिसके साथ आप भुगतान स्वीकार करेंगे।",
-    "Currency simbol position": "मुद्रा प्रतीक स्थिति",
+    "Currency symbol position": "मुद्रा प्रतीक स्थिति",
     "Where to display the currency symbol before, after or by default relative to the amount.": "राशि के सापेक्ष, पहले या बाद में मुद्रा प्रतीक प्रदर्शित करने के लिए कहां।",
     "Invoicing": "चालान-प्रक्रिया",
     "Enable invoicing": "चालान सक्षम करें",

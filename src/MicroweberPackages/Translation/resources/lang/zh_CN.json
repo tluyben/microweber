@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "设置商店将使用的货币。",
     "Set default currency": "设置默认货币",
     "Default currency with which you will accept payments.": "您将接受付款的默认货币。",
-    "Currency simbol position": "货币辛博尔头寸",
+    "Currency symbol position": "货币辛博尔头寸",
     "Where to display the currency symbol before, after or by default relative to the amount.": "相对于金额之前，之后或默认情况下在何处显示货币符号。",
     "Invoicing": "开票",
     "Enable invoicing": "启用发票",

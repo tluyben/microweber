@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "ارزی را که فروشگاه شما با آن کار می کند تنظیم کنید.",
     "Set default currency": "ارز پیش فرض را تنظیم کنید",
     "Default currency with which you will accept payments.": "ارز پیش فرضی که با آن پرداخت ها را می پذیرید.",
-    "Currency simbol position": "موقعیت نماد ارز",
+    "Currency symbol position": "موقعیت نماد ارز",
     "Where to display the currency symbol before, after or by default relative to the amount.": "محل نمایش نماد ارز قبل، بعد یا به طور پیش فرض نسبت به مقدار.",
     "Invoicing": "صورتحساب",
     "Enable invoicing": "فعال کردن صورتحساب",

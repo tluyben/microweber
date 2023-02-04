@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Do'koningiz faoliyat yuritadigan valyutani belgilang.",
     "Set default currency": "Standart valyutani o'rnating",
     "Default currency with which you will accept payments.": "Toʻlovlarni qabul qiladigan standart valyuta.",
-    "Currency simbol position": "Valyuta belgisi pozitsiyasi",
+    "Currency symbol position": "Valyuta belgisi pozitsiyasi",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Valyuta belgisini qaerdan oldin, keyin yoki summaga nisbatan sukut bo'yicha ko'rsatish kerak.",
     "Invoicing": "Hisob-faktura",
     "Enable invoicing": "Hisob-fakturani yoqish",

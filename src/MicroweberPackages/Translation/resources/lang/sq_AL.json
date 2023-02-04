@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Vendosni monedhën në të cilën do të funksionojë dyqani juaj.",
     "Set default currency": "Vendos monedhën e paracaktuar",
     "Default currency with which you will accept payments.": "Monedha e paracaktuar me të cilën do të pranoni pagesa.",
-    "Currency simbol position": "Pozicioni i simbolit të monedhës",
+    "Currency symbol position": "Pozicioni i simbolit të monedhës",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Ku të shfaqni simbolin e monedhës para, pas ose si parazgjedhje në lidhje me shumën.",
     "Invoicing": "Faturimi",
     "Enable invoicing": "Aktivizo faturimin",

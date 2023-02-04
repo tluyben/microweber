@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "ストアが運営される通貨を設定します。",
     "Set default currency": "デフォルトの通貨を設定する",
     "Default currency with which you will accept payments.": "支払いを受け入れるデフォルトの通貨。",
-    "Currency simbol position": "通貨記号の位置",
+    "Currency symbol position": "通貨記号の位置",
     "Where to display the currency symbol before, after or by default relative to the amount.": "金額の前、後、またはデフォルトで通貨記号を表示する場所。",
     "Invoicing": "請求",
     "Enable invoicing": "請求を有効にする",

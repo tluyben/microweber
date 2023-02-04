@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Đặt đơn vị tiền tệ mà cửa hàng của bạn sẽ hoạt động.",
     "Set default currency": "Đặt tiền tệ mặc định",
     "Default currency with which you will accept payments.": "Đơn vị tiền tệ mặc định mà bạn sẽ chấp nhận thanh toán.",
-    "Currency simbol position": "Vị trí simbol tiền tệ",
+    "Currency symbol position": "Vị trí simbol tiền tệ",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Nơi hiển thị ký hiệu tiền tệ trước, sau hoặc theo mặc định liên quan đến số tiền.",
     "Invoicing": "Lập hóa đơn",
     "Enable invoicing": "Bật lập hóa đơn",

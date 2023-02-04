@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "حدد العملة التي سيعمل بها متجرك.",
     "Set default currency": "تعيين العملة الافتراضية",
     "Default currency with which you will accept payments.": "العملة الافتراضية التي ستقبل بها المدفوعات.",
-    "Currency simbol position": "موقف رمز العملة",
+    "Currency symbol position": "موقف رمز العملة",
     "Where to display the currency symbol before, after or by default relative to the amount.": "مكان عرض رمز العملة قبل أو بعد أو افتراضيًا بالنسبة للمبلغ.",
     "Invoicing": "الفواتير",
     "Enable invoicing": "قم بتمكين الفواتير",

@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Nastavite valuto, v kateri bo delovala vaša trgovina.",
     "Set default currency": "Nastavite privzeto valuto",
     "Default currency with which you will accept payments.": "Privzeta valuta, s katero boste sprejemali plačila.",
-    "Currency simbol position": "Položaj simbola valute",
+    "Currency symbol position": "Položaj simbola valute",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Kje prikazati simbol valute pred, po ali privzeto glede na znesek.",
     "Invoicing": "Izdajanje računov",
     "Enable invoicing": "Omogoči izdajanje računov",

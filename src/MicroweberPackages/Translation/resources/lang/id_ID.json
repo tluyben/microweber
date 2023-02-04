@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Tetapkan mata uang di mana toko Anda akan beroperasi.",
     "Set default currency": "Tetapkan mata uang default",
     "Default currency with which you will accept payments.": "Mata uang default yang Anda gunakan untuk menerima pembayaran.",
-    "Currency simbol position": "Posisi simbol mata uang",
+    "Currency symbol position": "Posisi simbol mata uang",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Dimana untuk menampilkan simbol mata uang sebelum, sesudah atau secara default relatif terhadap jumlahnya.",
     "Invoicing": "Faktur",
     "Enable invoicing": "Aktifkan faktur",

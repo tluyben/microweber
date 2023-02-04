@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Establezca la moneda en la que operará su tienda.",
     "Set default currency": "Establecer moneda predeterminada",
     "Default currency with which you will accept payments.": "Moneda predeterminada con la que aceptará pagos.",
-    "Currency simbol position": "Posición del símbolo de moneda",
+    "Currency symbol position": "Posición del símbolo de moneda",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Dónde mostrar el símbolo de moneda antes, después o por defecto en relación con la cantidad.",
     "Invoicing": "Facturación",
     "Enable invoicing": "Habilitar facturación",

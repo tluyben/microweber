@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Задайте валутата, в която ще работи вашият магазин.",
     "Set default currency": "Задайте валута по подразбиране",
     "Default currency with which you will accept payments.": "Валута по подразбиране, с която ще приемате плащания.",
-    "Currency simbol position": "Позиция на валутен символ",
+    "Currency symbol position": "Позиция на валутен символ",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Къде да се показва символът на валутата преди, след или по подразбиране спрямо сумата.",
     "Invoicing": "Фактуриране",
     "Enable invoicing": "Активирайте фактурирането",

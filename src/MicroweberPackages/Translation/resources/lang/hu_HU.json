@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Állítsa be azt a pénznemet, amelyben üzlete működik.",
     "Set default currency": "Alapértelmezett pénznem beállítása",
     "Default currency with which you will accept payments.": "Alapértelmezett pénznem, amellyel elfogadja a fizetéseket.",
-    "Currency simbol position": "Pénznem simbol pozíció",
+    "Currency symbol position": "Pénznem simbol pozíció",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Hol jelenítse meg a pénznem szimbólumot az összeg előtt, után vagy alapértelmezés szerint.",
     "Invoicing": "Számlázás",
     "Enable invoicing": "Engedélyezze a számlázást",

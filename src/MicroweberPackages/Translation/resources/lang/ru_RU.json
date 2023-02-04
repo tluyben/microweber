@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Установите валюту, в которой будет работать ваш магазин.",
     "Set default currency": "Установить валюту по умолчанию",
     "Default currency with which you will accept payments.": "Валюта по умолчанию, в которой вы будете принимать платежи.",
-    "Currency simbol position": "Положение символа валюты",
+    "Currency symbol position": "Положение символа валюты",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Где отображать символ валюты до, после или по умолчанию относительно суммы.",
     "Invoicing": "Выставление счетов",
     "Enable invoicing": "Включить выставление счетов",

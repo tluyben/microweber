@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Set the currency in which your store will operate.",
     "Set default currency": "Set default currency",
     "Default currency with which you will accept payments.": "Default currency with which you will accept payments.",
-    "Currency simbol position": "Currency simbol position",
+    "Currency symbol position": "Currency symbol position",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Where to display the currency symbol before, after or by default relative to the amount.",
     "Invoicing": "Invoicing",
     "Enable invoicing": "Enable invoicing",

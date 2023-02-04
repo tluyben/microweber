@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Setha imali lapho isitolo sakho sizosebenza khona.",
     "Set default currency": "Setha imali ezenzakalelayo",
     "Default currency with which you will accept payments.": "Imali ezenzakalelayo ozokwamukela ngayo izinkokhelo.",
-    "Currency simbol position": "Isimo se-simbol yemali",
+    "Currency symbol position": "Isimo se-simbol yemali",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Ungalubonisa kuphi uphawu lwemali ngaphambi, ngemuva noma ngokuzenzakalela ngokuhlobene nenani.",
     "Invoicing": "Ukwenza ama-invoyisi",
     "Enable invoicing": "Nika amandla i-invoyisi",

@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Setați moneda în care va funcționa magazinul dvs.",
     "Set default currency": "Setați moneda implicită",
     "Default currency with which you will accept payments.": "Moneda implicită cu care veți accepta plăți.",
-    "Currency simbol position": "Poziția simbolului valutar",
+    "Currency symbol position": "Poziția simbolului valutar",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Unde se afișează simbolul monedei înainte, după sau implicit în raport cu suma.",
     "Invoicing": "Facturare",
     "Enable invoicing": "Activați facturarea",

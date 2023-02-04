@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Mağazanızın faaliyet göstereceği para birimini ayarlayın.",
     "Set default currency": "Varsayılan para birimini ayarlayın",
     "Default currency with which you will accept payments.": "Ödemeleri kabul edeceğiniz varsayılan para birimi.",
-    "Currency simbol position": "Para birimi simbol pozisyonu",
+    "Currency symbol position": "Para birimi simbol pozisyonu",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Para birimi sembolünün önce, sonra veya varsayılan olarak tutara göre nerede görüntüleneceği.",
     "Invoicing": "Faturalama",
     "Enable invoicing": "Faturalandırmayı etkinleştir",

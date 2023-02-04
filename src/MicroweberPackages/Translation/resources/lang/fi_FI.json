@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Aseta valuutta, jolla kauppasi toimii.",
     "Set default currency": "Aseta oletusvaluutta",
     "Default currency with which you will accept payments.": "Oletusvaluutta, jolla hyväksyt maksut.",
-    "Currency simbol position": "Valuutan simbol sijainti",
+    "Currency symbol position": "Valuutan simbol sijainti",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Missä valuuttasymboli näytetään ennen, jälkeen tai oletuksena suhteessa määrään.",
     "Invoicing": "Laskutus",
     "Enable invoicing": "Ota laskutus käyttöön",

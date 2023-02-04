@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Angi valutaen butikken din skal operere i.",
     "Set default currency": "Angi standard valuta",
     "Default currency with which you will accept payments.": "Standardvaluta som du godtar betalinger med.",
-    "Currency simbol position": "Valutasimbolposisjon",
+    "Currency symbol position": "Valutasimbolposisjon",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Hvor skal valutasymbolet vises før, etter eller som standard i forhold til beløpet.",
     "Invoicing": "Fakturering",
     "Enable invoicing": "Aktiver fakturering",

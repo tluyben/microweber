@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "Nastavte měnu, ve které bude váš obchod fungovat.",
     "Set default currency": "Nastavit výchozí měnu",
     "Default currency with which you will accept payments.": "Výchozí měna, ve které budete přijímat platby.",
-    "Currency simbol position": "Pozice symbolu měny",
+    "Currency symbol position": "Pozice symbolu měny",
     "Where to display the currency symbol before, after or by default relative to the amount.": "Kde zobrazit symbol měny před, po nebo ve výchozím nastavení vzhledem k částce.",
     "Invoicing": "Fakturace",
     "Enable invoicing": "Povolit fakturaci",

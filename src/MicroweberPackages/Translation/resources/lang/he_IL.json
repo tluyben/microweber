@@ -2094,7 +2094,7 @@
     "Set the currency in which your store will operate.": "הגדירו את המטבע בו תפעל החנות שלכם.",
     "Set default currency": "הגדר מטבע ברירת מחדל",
     "Default currency with which you will accept payments.": "מטבע ברירת מחדל שאיתו תקבל תשלומים.",
-    "Currency simbol position": "מיקום סימבול מטבע",
+    "Currency symbol position": "מיקום סימבול מטבע",
     "Where to display the currency symbol before, after or by default relative to the amount.": "היכן להציג את סמל המטבע לפני, אחרי או כברירת מחדל ביחס לסכום.",
     "Invoicing": "חשבונית",
     "Enable invoicing": "אפשר חשבונית",
