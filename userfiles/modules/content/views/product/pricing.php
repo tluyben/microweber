@@ -17,9 +17,9 @@
             </div>
 
             <script>
-                $(document).ready(function () {
-                    $('.js-product-price').on('input', function () {
-                        mw.on.stopWriting(this, function () {
+                $(document).ready(function() {
+                    $('.js-product-price').on('input', function() {
+                        mw.on.stopWriting(this, function() {
                             var textPrice = $('.js-product-price').val();
                             var formatPrice = textPrice.replaceAll(",", "");
                             $('.js-product-price').val(formatPrice);
@@ -29,14 +29,41 @@
             </script>
 
             <?php
-            if (is_module('shop/offers')):
+            if (is_module('shop/offers')) :
             ?>
-                <module type="shop/offers/special_price_field" product_id="<?php echo $product['id'];?>" />
+                <module type="shop/offers/special_price_field" product_id="<?php echo $product['id']; ?>" />
             <?php endif; ?>
+            <?php
+            $reccuring_options = array(
+                '0' => 'One-time',
+                '1' => 'Monthly',
+                '2' => 'Yearly',
+                '3' => 'Quarterly',
+                '4' => 'Weekly',
+                '5' => 'Daily'
 
-        </div>
 
-     <!--   <hr class="thin no-padding"/>
+            );
+
+            ?>
+            <div class="col-md-12">
+                <div class="form-group w-100">
+                    <label class="control-label"><?php _e("Recurring payment/subscription"); ?></label>
+                    <small class="text-muted d-block mb-3"><?php _e("Is this product a subscription based item?"); ?></small>
+                    <select name="recurrent" class="selectpicker js-recurringr" data-size="7">
+                        <?php
+                        foreach ($reccuring_options as $key => $value) {
+                            $selected = '';
+                            if ((!$productRecurrent && $key == '0') || $productRecurrent == $key) {
+                                $selected = 'selected';
+                            }
+                            echo '<option value="' . $key . '" ' . $selected . '>' . $value . '</option>';
+                        }
+                        ?>
+                </div>
+            </div>
+
+            <!--   <hr class="thin no-padding"/>
 
         <div class="row">
             <div class="col-md-12">
@@ -58,5 +85,6 @@
                 </div>
             </div>
         </div>-->
+        </div>
     </div>
 </div>

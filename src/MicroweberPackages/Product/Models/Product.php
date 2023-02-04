@@ -15,18 +15,19 @@ use MicroweberPackages\Product\CartesianProduct;
 use MicroweberPackages\Product\Events\ProductWasUpdated;
 use MicroweberPackages\Product\Models\ModelFilters\ProductFilter;
 use MicroweberPackages\Product\Traits\CustomFieldPriceTrait;
+use MicroweberPackages\Product\Traits\CustomFieldRecurrentTrait;
 use MicroweberPackages\Shop\FrontendFilter\ShopFilter;
 use function Clue\StreamFilter\fun;
 
 class Product extends Content
 {
 
-//    protected $dispatchesEvents = [
-//        'updated' =>  ProductWasUpdated::class,
-//     //   'updating' =>  ProductWasUpdated::class,
-//      //  'updating' =>  ProductWasUpdated::class,
-//     //   'deleted' => ProductWasUpdated::class,
-//    ];
+    //    protected $dispatchesEvents = [
+    //        'updated' =>  ProductWasUpdated::class,
+    //     //   'updating' =>  ProductWasUpdated::class,
+    //      //  'updating' =>  ProductWasUpdated::class,
+    //     //   'deleted' => ProductWasUpdated::class,
+    //    ];
 
 
     /**
@@ -35,10 +36,12 @@ class Product extends Content
      */
 
     use CustomFieldPriceTrait;
+    use CustomFieldRecurrentTrait;
+
 
     protected $table = 'content';
 
-    protected $appends = ['price', 'qty', 'sku'];
+    protected $appends = ['price', 'qty', 'sku', 'recurrent'];
 
     //  public $timestamps = false;
 
@@ -72,7 +75,14 @@ class Product extends Content
             'type' => 'price',
             'name' => 'Price',
             'value' => [0]
+        ],
+        [
+
+            'type' => 'hidden',
+            'name' => 'Recurrent',
+            'value' => [0]
         ]
+
     ];
 
     public static $contentDataDefault = [
@@ -167,6 +177,13 @@ class Product extends Content
         return 0;
     }
 
+    public function getRecurrentAttribute()
+    {
+        $recurrent = $this->fetchSingleAttributeByName('recurrent');
+        return $recurrent;
+    }
+
+
     public function getPriceModelAttribute()
     {
         // This must return only object model, DON'T CHANGE IT!
@@ -196,11 +213,11 @@ class Product extends Content
         return false;
     }
 
-    public function getDiscountPercentage() : int
+    public function getDiscountPercentage(): int
     {
         $originalPrice = $this->getPriceAttribute();
         $specialPrice = $this->getSpecialPriceAttribute();
-        if(!$originalPrice or !$specialPrice){
+        if (!$originalPrice or !$specialPrice) {
             return 0;
         }
         $item = [];
@@ -234,7 +251,6 @@ class Product extends Content
         $cartQuery->where('rel_id', $this->getAttribute('id'));
         $cartQuery->whereHas('order');
         return $cartQuery->count();
-
     }
 
     public function cart()
