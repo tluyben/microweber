@@ -18,7 +18,7 @@ class RecurrentScope implements Scope
     public function apply(Builder $builder, Model $model)
     {
         //    $builder->where('rel_type', '=', 'content');
-        $builder->where('type', '=', 'recurrent');
+        $builder->where('name_key', '=', 'recurrent');
         //   $builder->where('name', '=', 'price');
         //   $builder->where('name_key', '=', 'price');
     }

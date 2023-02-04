@@ -44,20 +44,20 @@
 
 
             );
-
             ?>
             <div class="col-md-12">
                 <div class="form-group w-100">
                     <label class="control-label"><?php _e("Recurring payment/subscription"); ?></label>
                     <small class="text-muted d-block mb-3"><?php _e("Is this product a subscription based item?"); ?></small>
-                    <select name="recurrent" class="selectpicker js-recurringr" data-size="7">
+                    <select name="recurrent" class="selectpicker js-recurringr" data-size="4">
                         <?php
                         foreach ($reccuring_options as $key => $value) {
                             $selected = '';
-                            if ((!$productRecurrent && $key == '0') || $productRecurrent == $key) {
+                            if ((!$productRecurrent && $key == '0') || $productRecurrent == $value) {
                                 $selected = 'selected';
                             }
-                            echo '<option value="' . $key . '" ' . $selected . '>' . $value . '</option>';
+
+                            echo '<option value="' . $value . '" ' . $selected . '>' . _e($value, true) . '</option>';
                         }
                         ?>
                 </div>

@@ -20,7 +20,6 @@ trait CustomFieldRecurrentTrait
     {
 
         static::saving(function ($model) {
-
             if ($model->attributes and array_key_exists("recurrent", $model->attributes)) {
                 if (isset($model->attributes['recurrent'])) {
                     $model->_addRecurrentField = $model->attributes['recurrent'];
@@ -35,7 +34,6 @@ trait CustomFieldRecurrentTrait
             if (isset($model->_addRecurrentField)) {
 
                 $recurrent = ProductRecurrent::where('rel_id', $model->id)->where('rel_type', $model->getMorphClass())->first();
-
                 if (!$recurrent) {
                     $recurrent = new ProductRecurrent();
                     $recurrent->name = 'recurrent';
